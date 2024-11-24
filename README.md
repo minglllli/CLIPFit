@@ -1,6 +1,6 @@
 Pytorch implementation of Paper: Vision-Language Model Fine-Tuning via Simple Parameter-Efficient Modification (EMNLP 2024 Main)
 
-All the experiments is able to run on an A100 GPU.
+All the experiments are able to run on an A100 GPU.
 
 # Installation Preparation. 
 Our code is built on CoOp, so please follow [CoOp](https://github.com/KaiyangZhou/CoOp) to install the Dassl toolbox, package requirements, and datasets. 
