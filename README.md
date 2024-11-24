@@ -7,10 +7,10 @@ Our code is built on CoOp, so please follow [CoOp](https://github.com/KaiyangZho
 
 # Run Code
 ## Base2New
-The script scripts/ClipFit/base2new_train.sh fine-tunes CLIP on base classes, and the script scripts/ClipFit/base2new_test.sh evaluates the performance of fine-tuned CLIP on new classes. Please follow the hyper-parameters reported in the paper. Revise CFG in base2new_train.sh for different training scripts, DATASET in base2new_train.sh for different datasets and lambda_ in ClipFit.py. Moreover, please revise the running script to your Linux system forms. 
+The script scripts/ClipFit/base2new_train.sh fine-tunes CLIP on base classes, and the script scripts/ClipFit/new.sh evaluates the performance of fine-tuned CLIP on new classes. Please follow the hyper-parameters reported in the paper. Revise CFG in base2new_train.sh for different training scripts, DATASET in base2new_train.sh for different datasets and lambda_ in ClipFit.py. Moreover, please revise the running script to your Linux system forms. 
 ```
 bash base2new_train.sh 
-bash base2new_test.sh 
+bash new.sh 
 ```
 When the evaluation is done, you can use parse_test_res.py to automatically calculate the average results. 
 For example,
